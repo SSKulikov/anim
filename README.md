@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "9. Анимации и CSS"
 
-![CI](https://github.com/sskulikov/ahj-homeworks-anim/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/sskulikov/anim/actions/workflows/web.yml/badge.svg)
 
 Правила сдачи задания:
 
