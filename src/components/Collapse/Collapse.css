@@ -1,0 +1,31 @@
+.collapse-button {
+    padding: 10px 20px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+
+    &:hover{
+        background-color: #0056b3;
+    }
+}
+
+.collapse-content {
+    transition: max-height 1s ease-in-out;
+    background: #e5feff;
+    overflow: hidden;
+    max-height: 0;
+}
+
+.collapse-inner {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.collapse-content.collapsed {
+    max-height: 300px;
+}
